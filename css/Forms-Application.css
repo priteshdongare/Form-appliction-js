@@ -1,0 +1,42 @@
+body{
+   width: 100%;
+   background-image: url("../img/Background.jpg");
+   background-size: contain;
+   background-attachment: fixed;
+   background-position:left,center;
+   background-repeat: no-repeat;
+}
+.center{
+    width:50%;
+    background: linear-gradient(red,white,blue);
+    float: right;
+   padding: 30px;
+}
+.button-submit{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    color: blue;
+}
+.center .red{
+    border: 1px solid red;
+}
+.center .blue{
+    border: 1px solid blue;
+}
+.head{
+    color: blue;
+}
+.center form input{
+    margin-bottom: 5px;
+}
+.center form span{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
